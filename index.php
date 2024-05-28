@@ -1,9 +1,9 @@
 <?php
 
-require "controlador/ctrPlantilla.php";
+require "controlador/ctrlPlantilla.php";
 
 $plantilla = new Plantilla();
 
-$plantilla->ctrPlantilla();
+$plantilla->ctrlPlantilla();
 
 ?>
