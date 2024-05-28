@@ -8,7 +8,7 @@
 
         static public function ctrlRuta()
         {
-            return "http://localhost/DItalia/vista/recursos";
+            return "http://localhost:3000/vista/recursos";
         }
     }
 ?>
