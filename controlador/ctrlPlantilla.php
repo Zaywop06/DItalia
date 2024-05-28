@@ -1,14 +1,14 @@
 <?php
-class Plantilla
-{
-    static public function ctrlPlantilla()
+    class Plantilla
     {
-        include "vista/plantilla.php";
-    }
+        static public function ctrlPlantilla()
+        {
+            include "vista/plantilla.php";
+        }
 
-    static public function ctrlRuta()
-    {
-        return "http://localhost/DItalia/vista/recursos";
+        static public function ctrlRuta()
+        {
+            return "http://localhost/DItalia/vista/recursos";
+        }
     }
-}
 ?>
