@@ -8,7 +8,7 @@
 
         static public function ctrlRuta()
         {
-            return "http://localhost:3000/vista/recursos";
+            return "https://8bb1-201-102-167-254.ngrok-free.app/vista/recursos";
         }
     }
 ?>

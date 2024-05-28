@@ -11,7 +11,7 @@ $ruta = Plantilla::ctrlRuta();
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Untree.co">
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="<?php echo $ruta . "/" ?>favicon.png">
 
     <meta name="description" content="" />
     <meta name="keywords" content="bootstrap, bootstrap4" />
@@ -50,8 +50,8 @@ $ruta = Plantilla::ctrlRuta();
                 </ul>
 
                 <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-                    <li><a class="nav-link" href="#"><img src="images/user.svg"></a></li>
-                    <li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+                    <li><a class="nav-link" href="#"><img src="<?php echo $ruta . "/" ?>images/user.svg"></a></li>
+                    <li><a class="nav-link" href="cart.html"><img src="<?php echo $ruta . "/" ?>images/cart.svg"></a></li>
                 </ul>
             </div>
         </div>
@@ -74,7 +74,7 @@ $ruta = Plantilla::ctrlRuta();
                 </div>
                 <div class="col-lg-7">
                     <div class="hero-img-wrap">
-                        <img src="images/couch.png" class="img-fluid">
+                        <img src="<?php echo $ruta . "/" ?>images/couch.png" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -99,12 +99,12 @@ $ruta = Plantilla::ctrlRuta();
                 <!-- Start Column 2 -->
                 <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                     <a class="product-item" href="cart.html">
-                        <img src="images/product-1.png" class="img-fluid product-thumbnail">
+                        <img src="<?php echo $ruta . "/" ?>images/product-1.png" class="img-fluid product-thumbnail">
                         <h3 class="product-title">Nordic Chair</h3>
                         <strong class="product-price">$50.00</strong>
 
                         <span class="icon-cross">
-                            <img src="images/cross.svg" class="img-fluid">
+                            <img src="<?php echo $ruta . "/" ?>images/cross.svg" class="img-fluid">
                         </span>
                     </a>
                 </div>
@@ -113,12 +113,12 @@ $ruta = Plantilla::ctrlRuta();
                 <!-- Start Column 3 -->
                 <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                     <a class="product-item" href="cart.html">
-                        <img src="images/product-2.png" class="img-fluid product-thumbnail">
+                        <img src="<?php echo $ruta . "/" ?>images/product-2.png" class="img-fluid product-thumbnail">
                         <h3 class="product-title">Kruzo Aero Chair</h3>
                         <strong class="product-price">$78.00</strong>
 
                         <span class="icon-cross">
-                            <img src="images/cross.svg" class="img-fluid">
+                            <img src="<?php echo $ruta . "/" ?>images/cross.svg" class="img-fluid">
                         </span>
                     </a>
                 </div>
@@ -127,12 +127,12 @@ $ruta = Plantilla::ctrlRuta();
                 <!-- Start Column 4 -->
                 <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                     <a class="product-item" href="cart.html">
-                        <img src="images/product-3.png" class="img-fluid product-thumbnail">
+                        <img src="<?php echo $ruta . "/" ?>images/product-3.png" class="img-fluid product-thumbnail">
                         <h3 class="product-title">Ergonomic Chair</h3>
                         <strong class="product-price">$43.00</strong>
 
                         <span class="icon-cross">
-                            <img src="images/cross.svg" class="img-fluid">
+                            <img src="<?php echo $ruta . "/" ?>images/cross.svg" class="img-fluid">
                         </span>
                     </a>
                 </div>
@@ -156,7 +156,7 @@ $ruta = Plantilla::ctrlRuta();
                         <div class="col-6 col-md-6">
                             <div class="feature">
                                 <div class="icon">
-                                    <img src="images/truck.svg" alt="Image" class="imf-fluid">
+                                    <img src="<?php echo $ruta . "/" ?>images/truck.svg" alt="Image" class="imf-fluid">
                                 </div>
                                 <h3>Fast &amp; Free Shipping</h3>
                                 <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
@@ -167,7 +167,7 @@ $ruta = Plantilla::ctrlRuta();
                         <div class="col-6 col-md-6">
                             <div class="feature">
                                 <div class="icon">
-                                    <img src="images/bag.svg" alt="Image" class="imf-fluid">
+                                    <img src="<?php echo $ruta . "/" ?>images/bag.svg" alt="Image" class="imf-fluid">
                                 </div>
                                 <h3>Easy to Shop</h3>
                                 <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
@@ -178,7 +178,7 @@ $ruta = Plantilla::ctrlRuta();
                         <div class="col-6 col-md-6">
                             <div class="feature">
                                 <div class="icon">
-                                    <img src="images/support.svg" alt="Image" class="imf-fluid">
+                                    <img src="<?php echo $ruta . "/" ?>images/support.svg" alt="Image" class="imf-fluid">
                                 </div>
                                 <h3>24/7 Support</h3>
                                 <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
@@ -189,7 +189,7 @@ $ruta = Plantilla::ctrlRuta();
                         <div class="col-6 col-md-6">
                             <div class="feature">
                                 <div class="icon">
-                                    <img src="images/return.svg" alt="Image" class="imf-fluid">
+                                    <img src="<?php echo $ruta . "/" ?>images/return.svg" alt="Image" class="imf-fluid">
                                 </div>
                                 <h3>Hassle Free Returns</h3>
                                 <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
@@ -202,7 +202,7 @@ $ruta = Plantilla::ctrlRuta();
 
                 <div class="col-lg-5">
                     <div class="img-wrap">
-                        <img src="images/why-choose-us-img.jpg" alt="Image" class="img-fluid">
+                        <img src="<?php echo $ruta . "/" ?>images/why-choose-us-img.jpg" alt="Image" class="img-fluid">
                     </div>
                 </div>
 
@@ -217,9 +217,9 @@ $ruta = Plantilla::ctrlRuta();
             <div class="row justify-content-between">
                 <div class="col-lg-7 mb-5 mb-lg-0">
                     <div class="imgs-grid">
-                        <div class="grid grid-1"><img src="images/img-grid-1.jpg" alt="Untree.co"></div>
-                        <div class="grid grid-2"><img src="images/img-grid-2.jpg" alt="Untree.co"></div>
-                        <div class="grid grid-3"><img src="images/img-grid-3.jpg" alt="Untree.co"></div>
+                        <div class="grid grid-1"><img src="<?php echo $ruta . "/" ?>images/img-grid-1.jpg" alt="Untree.co"></div>
+                        <div class="grid grid-2"><img src="<?php echo $ruta . "/" ?>images/img-grid-2.jpg" alt="Untree.co"></div>
+                        <div class="grid grid-3"><img src="<?php echo $ruta . "/" ?>images/img-grid-3.jpg" alt="Untree.co"></div>
                     </div>
                 </div>
                 <div class="col-lg-5 ps-lg-5">
@@ -249,7 +249,7 @@ $ruta = Plantilla::ctrlRuta();
                 <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
                     <div class="product-item-sm d-flex">
                         <div class="thumbnail">
-                            <img src="images/product-1.png" alt="Image" class="img-fluid">
+                            <img src="<?php echo $ruta . "/" ?>images/product-1.png" alt="Image" class="img-fluid">
                         </div>
                         <div class="pt-3">
                             <h3>Nordic Chair</h3>
@@ -262,7 +262,7 @@ $ruta = Plantilla::ctrlRuta();
                 <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
                     <div class="product-item-sm d-flex">
                         <div class="thumbnail">
-                            <img src="images/product-2.png" alt="Image" class="img-fluid">
+                            <img src="<?php echo $ruta . "/" ?>images/product-2.png" alt="Image" class="img-fluid">
                         </div>
                         <div class="pt-3">
                             <h3>Kruzo Aero Chair</h3>
@@ -275,7 +275,7 @@ $ruta = Plantilla::ctrlRuta();
                 <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
                     <div class="product-item-sm d-flex">
                         <div class="thumbnail">
-                            <img src="images/product-3.png" alt="Image" class="img-fluid">
+                            <img src="<?php echo $ruta . "/" ?>images/product-3.png" alt="Image" class="img-fluid">
                         </div>
                         <div class="pt-3">
                             <h3>Ergonomic Chair</h3>
@@ -326,7 +326,7 @@ $ruta = Plantilla::ctrlRuta();
 
                                             <div class="author-info">
                                                 <div class="author-pic">
-                                                    <img src="images/person-1.png" alt="Maria Jones" class="img-fluid">
+                                                    <img src="<?php echo $ruta . "/" ?>images/person-1.png" alt="Maria Jones" class="img-fluid">
                                                 </div>
                                                 <h3 class="font-weight-bold">Maria Jones</h3>
                                                 <span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
@@ -354,7 +354,7 @@ $ruta = Plantilla::ctrlRuta();
 
                                             <div class="author-info">
                                                 <div class="author-pic">
-                                                    <img src="images/person-1.png" alt="Maria Jones" class="img-fluid">
+                                                    <img src="<?php echo $ruta . "/" ?>images/person-1.png" alt="Maria Jones" class="img-fluid">
                                                 </div>
                                                 <h3 class="font-weight-bold">Maria Jones</h3>
                                                 <span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
@@ -382,7 +382,7 @@ $ruta = Plantilla::ctrlRuta();
 
                                             <div class="author-info">
                                                 <div class="author-pic">
-                                                    <img src="images/person-1.png" alt="Maria Jones" class="img-fluid">
+                                                    <img src="<?php echo $ruta . "/" ?>images/person-1.png" alt="Maria Jones" class="img-fluid">
                                                 </div>
                                                 <h3 class="font-weight-bold">Maria Jones</h3>
                                                 <span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>
@@ -419,7 +419,7 @@ $ruta = Plantilla::ctrlRuta();
 
                 <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
                     <div class="post-entry">
-                        <a href="#" class="post-thumbnail"><img src="images/post-1.jpg" alt="Image"
+                        <a href="#" class="post-thumbnail"><img src="<?php echo $ruta . "/" ?>images/post-1.jpg" alt="Image"
                                 class="img-fluid"></a>
                         <div class="post-content-entry">
                             <h3><a href="#">First Time Home Owner Ideas</a></h3>
@@ -433,7 +433,7 @@ $ruta = Plantilla::ctrlRuta();
 
                 <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
                     <div class="post-entry">
-                        <a href="#" class="post-thumbnail"><img src="images/post-2.jpg" alt="Image"
+                        <a href="#" class="post-thumbnail"><img src="<?php echo $ruta . "/" ?>images/post-2.jpg" alt="Image"
                                 class="img-fluid"></a>
                         <div class="post-content-entry">
                             <h3><a href="#">How To Keep Your Furniture Clean</a></h3>
@@ -446,7 +446,7 @@ $ruta = Plantilla::ctrlRuta();
 
                 <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
                     <div class="post-entry">
-                        <a href="#" class="post-thumbnail"><img src="images/post-3.jpg" alt="Image"
+                        <a href="#" class="post-thumbnail"><img src="<?php echo $ruta . "/" ?>images/post-3.jpg" alt="Image"
                                 class="img-fluid"></a>
                         <div class="post-content-entry">
                             <h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
@@ -468,13 +468,13 @@ $ruta = Plantilla::ctrlRuta();
         <div class="container relative">
 
             <div class="sofa-img">
-                <img src="images/sofa.png" alt="Image" class="img-fluid">
+                <img src="<?php echo $ruta . "/" ?>images/sofa.png" alt="Image" class="img-fluid">
             </div>
 
             <div class="row">
                 <div class="col-lg-8">
                     <div class="subscription-form">
-                        <h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg"
+                        <h3 class="d-flex align-items-center"><span class="me-1"><img src="<?php echo $ruta . "/" ?>images/envelope-outline.svg"
                                     alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
 
                         <form action="#" class="row g-3">
@@ -576,9 +576,9 @@ $ruta = Plantilla::ctrlRuta();
     <!-- End Footer Section -->
 
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/tiny-slider.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="<?php echo $ruta . "/" ?>js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo $ruta . "/" ?>js/tiny-slider.js"></script>
+    <script src="<?php echo $ruta . "/" ?>js/custom.js"></script>
 </body>
 
 </html>
