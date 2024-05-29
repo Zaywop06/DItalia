@@ -18,11 +18,12 @@
       </g>
     </svg>
   </div>
+
   <section>
     <ul class="socials">
-      <li><a href="https://www.tiktok.com/@_karelyruizmxx_?lang=es"><i class="fa-brands fa-tiktok fa-xl"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-tiktok fa-xl"></i></a></li>
       <li><a href="#"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
-      <li><a href="https://www.instagram.com/karelyruiz.of/"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
     </ul>
     <ul class="links">
       <li><a href="#">Inicio</a></li>
