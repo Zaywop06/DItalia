@@ -10,11 +10,11 @@ $ruta = Plantilla::ctrlRuta();
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Untree.co">
+    <meta name="author" content="Blue Cloud">
     <link rel="shortcut icon" href="<?php echo $ruta . "/" ?>favicon.png">
 
-    <meta name="description" content="" />
-    <meta name="keywords" content="bootstrap, bootstrap4" />
+	<meta name="description" content="Sitio Web de comercio electronico acerca de una tienda de vestidos para XV años" />
+	<meta name="keywords" content="vestidos, XV" />
 
     <!-- Bootstrap CSS -->
     <link href="<?php echo $ruta . "/" ?>css/bootstrap.min.css" rel="stylesheet">
