@@ -17,26 +17,26 @@ $pagina = isset($_GET['pagina']) ? $_GET['pagina'] : 'inicio';
                     <a class="nav-link" href="index.php?pagina=inicio">Home</a>
                 </li>
                 <li class="nav-item <?php echo $pagina == 'shop' ? 'active' : ''; ?>">
-                    <a class="nav-link" href="shop.php?pagina=shop">Shop</a>
+                    <a class="nav-link" href="index.php?pagina=shop">Shop</a>
                 </li>
                 <li class="nav-item <?php echo $pagina == 'about' ? 'active' : ''; ?>">
-                    <a class="nav-link" href="about.php?pagina=about">About us</a>
+                    <a class="nav-link" href="index.php?pagina=about">About us</a>
                 </li>
                 <li class="nav-item <?php echo $pagina == 'services' ? 'active' : ''; ?>">
-                    <a class="nav-link" href="services.php?pagina=services">Services</a>
+                    <a class="nav-link" href="index.php?pagina=services">Services</a>
                 </li>
                 <li class="nav-item <?php echo $pagina == 'blog' ? 'active' : ''; ?>">
-                    <a class="nav-link" href="blog.php?pagina=blog">Blog</a>
+                    <a class="nav-link" href="index.php?pagina=blog">Blog</a>
                 </li>
                 <li class="nav-item <?php echo $pagina == 'contact' ? 'active' : ''; ?>">
-                    <a class="nav-link" href="contact.php?pagina=contact">Contact us</a>
+                    <a class="nav-link" href="index.php?pagina=contact">Contact us</a>
                 </li>
             </ul>
 
             <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
                 <li><a class="nav-link" href="#"><img src="<?php echo $ruta . "/" ?>images/user.svg"></a></li>
                 <li class="nav-item <?php echo $pagina == 'cart' ? 'active' : ''; ?>">
-                    <a class="nav-link" href="cart.php?pagina=cart"><img src="<?php echo $ruta . "/" ?>images/cart.svg"></a>
+                    <a class="nav-link" href="index.php?pagina=cart"><img src="<?php echo $ruta . "/" ?>images/cart.svg"></a>
                 </li>
             </ul>
         </div>

@@ -32,7 +32,7 @@ $ruta = Plantilla::ctrlRuta();
 
     <?php
     if (isset($_GET["pagina"])) {
-        if ($_GET["pagina"] == "inicio" || $_GET["pagina"] == "shop" || $_GET["pagina"] == "about" || $_GET["pagina"] == "service" || $_GET["pagina"] == "blog" || $_GET["pagina"] == "contact" || $_GET["pagina"] == "cart") {
+        if ($_GET["pagina"] == "inicio" || $_GET["pagina"] == "shop" || $_GET["pagina"] == "about" || $_GET["pagina"] == "services" || $_GET["pagina"] == "blog" || $_GET["pagina"] == "contact" || $_GET["pagina"] == "cart") {
             include "modulos/" . $_GET["pagina"] . ".php";
         }
     } else {
