@@ -8,7 +8,7 @@
             <div class="row justify-content-between">
                 <div class="col-lg-5">
                     <div class="intro-excerpt">
-                        <h1>Cart</h1>
+                        <h1>Carrito</h1>
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -19,8 +19,6 @@
     </div>
     <!-- End Hero Section -->
 
-
-
     <div class="untree_co-section before-footer-section">
         <div class="container">
             <div class="row mb-5">
@@ -29,12 +27,12 @@
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th class="product-thumbnail">Image</th>
-                                    <th class="product-name">Product</th>
-                                    <th class="product-price">Price</th>
-                                    <th class="product-quantity">Quantity</th>
+                                    <th class="product-thumbnail">Imagen</th>
+                                    <th class="product-name">Producto</th>
+                                    <th class="product-price">Precio</th>
+                                    <th class="product-quantity">Cantidad</th>
                                     <th class="product-total">Total</th>
-                                    <th class="product-remove">Remove</th>
+                                    <th class="product-remove">Eliminar</th>
                                 </tr>
                             </thead>
                             <tbody>
