@@ -8,7 +8,7 @@
 
         static public function ctrlRuta()
         {
-            return "https://7df1-201-102-167-254.ngrok-free.app/vista/recursos";
+            return "https://3893-201-102-167-254.ngrok-free.app/vista/recursos";
         }
     }
 ?>

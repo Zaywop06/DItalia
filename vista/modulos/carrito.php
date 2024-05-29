@@ -41,11 +41,11 @@
                                         <img src="<?php echo $ruta . "/" ?>images/product-1.png" alt="Image" class="img-fluid">
                                     </td>
                                     <td class="product-name">
-                                        <h2 class="h5 text-black">Product 1</h2>
+                                        <h2 class="h5 text-black mt-2">Mariana</h2>
                                     </td>
-                                    <td>$49.00</td>
+                                    <td class="price">$6,299.90</td>
                                     <td>
-                                        <div class="input-group mb-3 d-flex align-items-center quantity-container" style="max-width: 120px;">
+                                        <div class="input-group align-items-center quantity-container" style="max-width: 120px;">
                                             <div class="input-group-prepend">
                                                 <button class="btn btn-outline-black decrease" type="button">&minus;</button>
                                             </div>
@@ -56,7 +56,7 @@
                                         </div>
 
                                     </td>
-                                    <td>$49.00</td>
+                                    <td class="price">$49.00</td>
                                     <td><a href="#" class="btn btn-black btn-sm">X</a></td>
                                 </tr>
 
@@ -65,11 +65,11 @@
                                         <img src="<?php echo $ruta . "/" ?>images/product-2.png" alt="Image" class="img-fluid">
                                     </td>
                                     <td class="product-name">
-                                        <h2 class="h5 text-black">Product 2</h2>
+                                        <h2 class="h5 text-black mt-2">Carolina</h2>
                                     </td>
-                                    <td>$49.00</td>
+                                    <td class="price">$7,399.90</td>
                                     <td>
-                                        <div class="input-group mb-3 d-flex align-items-center quantity-container" style="max-width: 120px;">
+                                        <div class="input-group d-flex align-items-center quantity-container" style="max-width: 120px;">
                                             <div class="input-group-prepend">
                                                 <button class="btn btn-outline-black decrease" type="button">&minus;</button>
                                             </div>
@@ -80,7 +80,7 @@
                                         </div>
 
                                     </td>
-                                    <td>$49.00</td>
+                                    <td class="price">$49.00</td>
                                     <td><a href="#" class="btn btn-black btn-sm">X</a></td>
                                 </tr>
                             </tbody>
@@ -96,7 +96,7 @@
                             <button class="btn btn-black btn-sm btn-block">Update Cart</button>
                         </div>
                         <div class="col-md-6">
-                            <button class="btn btn-outline-black btn-sm btn-block">Continue Shopping</button>
+                            <button class="btn btn-outline-black btn-sm btn-block">Continuar comprando</button>
                         </div>
                     </div>
                     <div class="row">
@@ -117,7 +117,7 @@
                         <div class="col-md-7">
                             <div class="row">
                                 <div class="col-md-12 text-right border-bottom mb-5">
-                                    <h3 class="text-black h4 text-uppercase">Cart Totals</h3>
+                                    <h3 class="text-black h4 text-uppercase">Total</h3>
                                 </div>
                             </div>
                             <div class="row mb-3">
@@ -139,7 +139,7 @@
 
                             <div class="row">
                                 <div class="col-md-12">
-                                    <button class="btn btn-black btn-lg py-3 btn-block" onclick="window.location='checkout.html'">Proceed To Checkout</button>
+                                    <button class="btn btn-black btn-lg py-3 btn-block" onclick="window.location='index.php?pagina=verificar'">Proceder a la compra</button>
                                 </div>
                             </div>
                         </div>

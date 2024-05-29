@@ -8,7 +8,7 @@
             <div class="row justify-content-between">
                 <div class="col-lg-5">
                     <div class="intro-excerpt">
-                        <h1>Shop</h1>
+                        <h1>Tienda</h1>
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -27,8 +27,8 @@
                 <div class="col-12 col-md-4 col-lg-3 mb-5">
                     <a class="product-item" href="#">
                         <img src="<?php echo $ruta . "/" ?>images/product-3.png" class="img-fluid product-thumbnail">
-                        <h3 class="product-title">Nordic Chair</h3>
-                        <strong class="product-price">$50.00</strong>
+                        <h3 class="product-title">Rebecca</h3>
+                        <strong class="product-price">$ 8,499.90</strong>
 
                         <span class="icon-cross">
                             <img src="<?php echo $ruta . "/" ?>images/cross.svg" class="img-fluid">
@@ -41,8 +41,8 @@
                 <div class="col-12 col-md-4 col-lg-3 mb-5">
                     <a class="product-item" href="#">
                         <img src="<?php echo $ruta . "/" ?>images/product-1.png" class="img-fluid product-thumbnail">
-                        <h3 class="product-title">Nordic Chair</h3>
-                        <strong class="product-price">$50.00</strong>
+                        <h3 class="product-title">Mariana</h3>
+                        <strong class="product-price">$ 6,299.90</strong>
 
                         <span class="icon-cross">
                             <img src="<?php echo $ruta . "/" ?>images/cross.svg" class="img-fluid">
@@ -55,8 +55,8 @@
                 <div class="col-12 col-md-4 col-lg-3 mb-5">
                     <a class="product-item" href="#">
                         <img src="<?php echo $ruta . "/" ?>images/product-2.png" class="img-fluid product-thumbnail">
-                        <h3 class="product-title">Kruzo Aero Chair</h3>
-                        <strong class="product-price">$78.00</strong>
+                        <h3 class="product-title">Carolina</h3>
+                        <strong class="product-price">$ 7,399.90</strong>
 
                         <span class="icon-cross">
                             <img src="<?php echo $ruta . "/" ?>images/cross.svg" class="img-fluid">
@@ -68,9 +68,9 @@
                 <!-- Start Column 4 -->
                 <div class="col-12 col-md-4 col-lg-3 mb-5">
                     <a class="product-item" href="#">
-                        <img src="<?php echo $ruta . "/" ?>images/product-3.png" class="img-fluid product-thumbnail">
-                        <h3 class="product-title">Ergonomic Chair</h3>
-                        <strong class="product-price">$43.00</strong>
+                        <img src="<?php echo $ruta . "/" ?>images/product-4.png" class="img-fluid product-thumbnail">
+                        <h3 class="product-title">Beatriz</h3>
+                        <strong class="product-price">$ 11,499.90</strong>
 
                         <span class="icon-cross">
                             <img src="<?php echo $ruta . "/" ?>images/cross.svg" class="img-fluid">
@@ -79,13 +79,12 @@
                 </div>
                 <!-- End Column 4 -->
 
-
                 <!-- Start Column 1 -->
                 <div class="col-12 col-md-4 col-lg-3 mb-5">
                     <a class="product-item" href="#">
                         <img src="<?php echo $ruta . "/" ?>images/product-3.png" class="img-fluid product-thumbnail">
-                        <h3 class="product-title">Nordic Chair</h3>
-                        <strong class="product-price">$50.00</strong>
+                        <h3 class="product-title">Rebecca</h3>
+                        <strong class="product-price">$ 8,499.90</strong>
 
                         <span class="icon-cross">
                             <img src="<?php echo $ruta . "/" ?>images/cross.svg" class="img-fluid">
@@ -98,8 +97,8 @@
                 <div class="col-12 col-md-4 col-lg-3 mb-5">
                     <a class="product-item" href="#">
                         <img src="<?php echo $ruta . "/" ?>images/product-1.png" class="img-fluid product-thumbnail">
-                        <h3 class="product-title">Nordic Chair</h3>
-                        <strong class="product-price">$50.00</strong>
+                        <h3 class="product-title">Mariana</h3>
+                        <strong class="product-price">$ 6,299.90</strong>
 
                         <span class="icon-cross">
                             <img src="<?php echo $ruta . "/" ?>images/cross.svg" class="img-fluid">
@@ -112,8 +111,8 @@
                 <div class="col-12 col-md-4 col-lg-3 mb-5">
                     <a class="product-item" href="#">
                         <img src="<?php echo $ruta . "/" ?>images/product-2.png" class="img-fluid product-thumbnail">
-                        <h3 class="product-title">Kruzo Aero Chair</h3>
-                        <strong class="product-price">$78.00</strong>
+                        <h3 class="product-title">Carolina</h3>
+                        <strong class="product-price">$ 7,399.90</strong>
 
                         <span class="icon-cross">
                             <img src="<?php echo $ruta . "/" ?>images/cross.svg" class="img-fluid">
@@ -125,9 +124,9 @@
                 <!-- Start Column 4 -->
                 <div class="col-12 col-md-4 col-lg-3 mb-5">
                     <a class="product-item" href="#">
-                        <img src="<?php echo $ruta . "/" ?>images/product-3.png" class="img-fluid product-thumbnail">
-                        <h3 class="product-title">Ergonomic Chair</h3>
-                        <strong class="product-price">$43.00</strong>
+                        <img src="<?php echo $ruta . "/" ?>images/product-4.png" class="img-fluid product-thumbnail">
+                        <h3 class="product-title">Beatriz</h3>
+                        <strong class="product-price">$ 11,499.90</strong>
 
                         <span class="icon-cross">
                             <img src="<?php echo $ruta . "/" ?>images/cross.svg" class="img-fluid">
